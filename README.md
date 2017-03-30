@@ -6,6 +6,26 @@
 
 ## Usage
 
+```
+NAME:
+   ttyconvert - ttyrec <-> json converter
+
+USAGE:
+   ttyconvert [tojson|fromjson] < input > output
+
+VERSION:
+   0.0.1
+
+COMMANDS:
+     tojson    convert to json from ttyrec
+     fromjson  convert from json to ttyrec
+     help, h   Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --help, -h     show help
+   --version, -v  print the version
+```
+
 - ttyrec output.ttyrec
   - do something
 - ttyconvert tojson < output.ttyrec > to-edit.json
